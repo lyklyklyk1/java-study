@@ -12,6 +12,8 @@ public class TestEquals {
         String s2 = new String("hello");
         System.out.println("s1 == s2的结果是：" + (s1 == s2));//false
         System.out.println("s1.equals(s2)的结果是：" + s1.equals(s2));//true
+
+        System.out.println("s1.equals(s2)的结果是：" + s1.equals(s2));//true
     }
 }
 
